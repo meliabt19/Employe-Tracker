@@ -8,8 +8,8 @@ let connection = mysql.createConnection({
   // Your username
   user: "root",
   // Your password
-  password: "password",
-  database: "employee_tracker",
+  password: "soccerkid",
+  database: "employee_tracker_db",
 });
 connection.connect(function (err) {
   if (err) throw err;
